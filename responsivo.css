@@ -1,0 +1,155 @@
+
+/* ======== 1200px — Laptops grandes ======== */
+@media (max-width: 1200px) {
+
+    section {
+        height: auto;
+        padding: 80px 0;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    /* containers gerais */
+    #container,
+    #container-site,
+    #container-contato,
+    #skills #principal {
+        width: 90% !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    #capacitacoes div {
+        flex-direction: column !important;
+        margin-bottom: 50px;
+    }
+}
+
+
+/* ======== 1024px — Tablets maiores ======== */
+@media (max-width: 1024px) {
+
+    /* diminui títulos */
+    h1, #main h1 { font-size: 70px !important; }
+    h2, #main h2 { font-size: 55px !important; }
+    h3 { font-size: 35px !important; }
+
+    /* botões */
+    button {
+        padding: 10px 14px;
+        font-size: 16px;
+    }
+
+    /* formulários */
+    input, textarea {
+        width: 280px !important;
+        font-size: 16px;
+    }
+
+    /* foto do perfil */
+    #perfil {
+        width: 320px !important;
+        height: 320px !important;
+    }
+    #foto {
+        width: 290px !important;
+        height: 290px !important;
+    }
+}
+
+
+/* ======== 768px — Tablets e celulares grandes ======== */
+@media (max-width: 768px) {
+
+    #menu {
+        right: 10px !important;
+        top: 3% !important;
+    }
+
+    #icons {
+        width: 30px !important;
+        margin-right: 15px !important;
+    }
+
+    p {
+        font-size: 18px !important;
+    }
+
+    #text_sobre {
+        width: 95% !important;
+        font-size: 18px !important;
+        margin: 0 auto;
+    }
+
+    #capacitacoes p {
+        width: 95% !important;
+    }
+
+    #container-redes img {
+        width: 45px !important;
+    }
+}
+
+
+/* ======== 600px — Celulares padrão ======== */
+@media (max-width: 600px) {
+
+    h1, #main h1 { font-size: 45px !important; }
+    h2, #main h2 { font-size: 40px !important; }
+    h3 { font-size: 28px !important; }
+
+    /* inputs */
+    input, textarea {
+        width: 240px !important;
+    }
+
+    #perfil {
+        width: 250px !important;
+        height: 250px !important;
+    }
+    #foto {
+        width: 225px !important;
+        height: 225px !important;
+    }
+
+    button {
+        font-size: 14px !important;
+        padding: 8px 12px !important;
+    }
+
+    #container-redes img {
+        width: 35px !important;
+    }
+}
+
+
+/* ======== 420px — Smartphones pequenos ======== */
+@media (max-width: 420px) {
+
+    h1, #main h1 { font-size: 35px !important; }
+    h2, #main h2 { font-size: 32px !important; }
+    h3 { font-size: 22px !important; }
+
+    p {
+        font-size: 16px !important;
+    }
+
+    input, textarea {
+        width: 200px !important;
+    }
+
+    #perfil {
+        width: 210px !important;
+        height: 210px !important;
+    }
+    #foto {
+        width: 185px !important;
+        height: 185px !important;
+    }
+}

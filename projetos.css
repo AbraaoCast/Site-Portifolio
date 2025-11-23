@@ -1,0 +1,64 @@
+/* RU: 4691298 */
+/*  SESSÃO PROJETOS  */
+
+#project {
+    background-color: #1c3046;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container-site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+#site {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#site #descricao {
+    display: block;
+    margin-right: 10px;
+    color: rgb(207, 207, 207);
+    width: 340px;
+}
+
+#site h3 {
+    font-size: 40px;
+    color: #0a68d3;
+}
+
+#site p {
+    font-size: 22px;
+}
+
+#site h3 span {
+    font-size: 20px;
+    color: rgb(207, 207, 207);
+
+}
+
+button {
+    background-color: #0a68d3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.6s ease, color 0.6s ease, transform 0.6s ease;
+}
+
+button:hover {
+    background-color: white;
+    color: #0a68d3;
+    transform: scale(1.1);
+}

@@ -1,0 +1,53 @@
+/* RU: 4691298 */
+/*  SESSÃO MINHAS HABILIDADES  */
+
+
+#skills {
+    background-color: #021122;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#skills #principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    color: rgb(207, 207, 207);
+}
+
+#capacitacoes {
+    width: 100%;
+    
+}
+
+#capacitacoes div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#capacitacoes h3 {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+#capacitacoes p {
+    width: 550px;
+    font-size: 18px;
+}
+
+#icone-py, #icone-js, #icone-wp {
+    width: 80px;
+    opacity: 0.3;
+}
+
+#icone-hc {
+    width: 105px;
+    opacity: 0.3;
+}

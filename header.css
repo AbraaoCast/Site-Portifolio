@@ -1,0 +1,95 @@
+/* RU: 4691298 */
+/* ÁREA DA PAGINA HOME */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", Arial, sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-color:  #021122;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+/* ELEMENTOS DO BANNER */
+#main h1 {
+    font-size: 90px;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+}
+
+#main h2 {
+    font-size: 90px;
+    margin: 0;
+    opacity: 0.4;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    margin: 0;
+}
+
+#home {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+/* REDES SOCIAIS DO BANNER */
+#redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#icons {
+    width: 35px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+#icons:hover {
+    transform: translateY(-8px);
+}
+
+/* MENU DO SITE */
+#menu{
+    position: fixed;
+    right: 5px;
+    top: 5%;
+}
+
+#menu li {
+    margin-bottom: 8px;
+    transition: transform 0.4s ease;
+}    
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu li:hover {
+    transform: translateX(-15px);
+}
+
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
